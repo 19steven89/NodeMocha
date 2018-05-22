@@ -1,0 +1,19 @@
+used: npm install mocha@3.0.0 --save-dev
+to use the Nodejs testing framework mocha in the app.
+
+the --save-dev shows that the app only needs to use mocha for development
+purposes only. i.e. mocha isnt required to run the app etc.
+
+in the package.json file this is included:
+"devDependencies": {
+  "mocha": "^3.0.0"
+}
+
+to show its only for development dependencies. and it wont be installed when the app is deployed
+in heroku, only for use locally.
+
+altered the package.json file, to use:  "test": "mocha **/*.test.js"
+
+this code will then register any file with the .test.js extension as a testing file
+
+run: npm test in the terminal to run the unit tests!! 
