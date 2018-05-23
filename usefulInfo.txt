@@ -23,3 +23,6 @@ the --exec flag signals that the file to run may not be a node file.
 changed the package.json file to include the script:  "test-watch": "nodemon --exec \"npm test\""
 
 now to run the app, can use the following command, making it easier: npm run test-watch
+
+installed: npm install expect@1.20.2 --save-dev
+to use a unit test library which makes use of assertions in the utilities.test.js file
