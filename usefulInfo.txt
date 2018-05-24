@@ -26,3 +26,9 @@ now to run the app, can use the following command, making it easier: npm run tes
 
 installed: npm install expect@1.20.2 --save-dev
 to use a unit test library which makes use of assertions in the utilities.test.js file
+
+installed: npm i supertest@2.0.0 --save-dev
+to let us test express apps.
+
+also used the describe test suite method to give better test output
+when the test is run.
