@@ -32,3 +32,9 @@ to let us test express apps.
 
 also used the describe test suite method to give better test output
 when the test is run.
+
+used test spies to simulate a function using a unit test which is included in the npm expect module.
+This is done in the spies directory
+
+installed: npm install rewire@2.5.2 --save-dev
+for use in making mock unit tests, in the app.test.js file
